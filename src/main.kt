@@ -8,7 +8,6 @@ fun main()
     val num2 = readLine().toString().toDouble()
     println("введи  операцию")
     val operation = readLine()
-
     when(operation)
     {
         "+" -> println(num1+num2)
@@ -16,20 +15,6 @@ fun main()
         "/" -> println(num1/num2)
         "*" -> println(num1*num2)
         else -> println("опа короч не получилось")
-
     }
     println("плати податки столько сколько написанно")
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
