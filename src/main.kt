@@ -8,7 +8,7 @@ fun main()
     val num2 = readLine().toString().toDouble()
     println("введи  операцию")
     val operation = readLine()
-    when(operation)
+    when(operation) 
     {
         "+" -> println(num1+num2)
         "-" -> println(num1-num2)
